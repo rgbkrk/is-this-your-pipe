@@ -11,7 +11,7 @@ These are the talk materials for a submitted talk on credential and infrastructu
 
 *Tier 1 (passive)*
 
-Release gitsecnanny to help combat against Tier 1 for the public at large.
+Release `gitsecnanny` to help combat against Tier 1 for the public at large.
 
 ### Submitting accidental PRs
 
