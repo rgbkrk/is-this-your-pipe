@@ -3,8 +3,6 @@ python:
 - '3.3'
 install: echo 'yar'
 script: echo 'script ran'
-
-# Totally secret, really
 env:
   global:
-    secure: OZBUDz710/Ihcq+q1pCjiw9bGD+tDGDJQgiUsO0k3ngKYUKJ8cKh01XoiM4qHteqTcA8XM8o4bdaVijDh+ZfRk95tZE3MWV7WJ4VtlUqOMsrcu8c11fRX7FkaREVtlZXdQQWDwO2sqYDyTjHdyVcCdEfJWNYL93UTz6oY30vQpU=
+  - secure: e8fLeC++JzXb+mDy8094gA5zvvbeIge9lkCE8DhBvyPm9auo0tOiD1WGdupO7a+u/w8f86gpyuQKsg46l39H+DzehehTZG37LRNT+GZtuF93sPWNArZNMZU9j4eBkPQg2jbmKOTIJCSLahSzaqclWhBH4ioKyCUWwmkqwXJEXN8=
