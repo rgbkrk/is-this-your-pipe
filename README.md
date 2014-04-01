@@ -19,6 +19,8 @@ Release `gitsecnanny` to help combat against Tier 1 for the public at large.
 
 Submit a PR against a repo that uses "encrypted" components on Travis CI, send them to a webhook or just echo them out.
 
+> Please note that secure env variables are not available for pull requests from forks. This is done due to the security risk of exposing such information in submitted code. Everyone can submit a pull request and if an unencrypted variable is available there, it could be easily displayed.
+
 ### Submitting purposeful infrastructure modifications
 
 *Tier 3 (active, aggressive)*
