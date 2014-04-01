@@ -2,7 +2,7 @@ language: python
 python:
 - '3.3'
 install: echo 'yar'
-script: echo 'script ran'
+script: echo "$THESECRET"
 
 # Totally secret, really
 env:
