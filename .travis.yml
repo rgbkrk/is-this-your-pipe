@@ -1,7 +1,10 @@
 language: python
 python:
-  - "3.3"
-# command to install dependencies
-install: "echo 'yar'"
-# command to run tests
-script: "echo 'script ran'"
+- '3.3'
+install: echo 'yar'
+script: echo 'script ran'
+
+# Totally secret, really
+env:
+  global:
+    secure: OZBUDz710/Ihcq+q1pCjiw9bGD+tDGDJQgiUsO0k3ngKYUKJ8cKh01XoiM4qHteqTcA8XM8o4bdaVijDh+ZfRk95tZE3MWV7WJ4VtlUqOMsrcu8c11fRX7FkaREVtlZXdQQWDwO2sqYDyTjHdyVcCdEfJWNYL93UTz6oY30vQpU=
