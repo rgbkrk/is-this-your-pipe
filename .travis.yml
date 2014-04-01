@@ -4,4 +4,4 @@ python:
 # command to install dependencies
 install: "echo 'yar'"
 # command to run tests
-script: "echo 'script'"
+script: "echo 'script ran'"
