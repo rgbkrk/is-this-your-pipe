@@ -1,74 +1,46 @@
-# DEF CON 22 Call for Papers Form
-
-## Submission Checklist
-
-Your submission must contain all the following information.
-
-* Presenter Information
-* Presentation Information
-* Scheduling Information
-* Equipment requirements
-* Speaker Bio(s)
-* Abstract
-* Outline
-* Supporting Files
-* Submission Agreements
-
-These requirements are outlined below. Please be as detailed as possible so that our selection group can best evaluate your presentation against other submissions.
-
-Failure to provide any of the above information may invalidate your submission. Submitting only a whitepaper, PDF, or other document, without all the above information, will be considered an incomplete submission and will not be considered.
-
-You could read more about CFP submission requirements at: https://www.defcon.org/html/links/dc-speakerscorner.html#nikita-cfp, this will give you helpful tips and pointers regarding CFPs.
-
-SPECIAL NOTE:
-Please cut and paste your submission into the body of an email or within a .txt file. We request that applications are in plain text to avoid formatting errors. Please do not submit applications in .Pdf, .docx, .odf, or any other formats, else it may delay your review. Additional supporting materials that may help in the selection process such as code, white papers, proof of concept, etc. can be attached and included in other formats.
-
 ### Presenter Information
 
-Primary Speaker Name*:
-Primary Speaker Title and Company (if applicable):
-Primary Speaker Email Address:
-Primary Speaker Phone Number:
-Primary Speaker postal address:
-(Address is required if you would like us to mail your honorarium payment; you can also pick up payment on-site at the conference following your presentation)
-Additional Speakers' name(s)* & titles:
-Additional Email Addresses:
-Has the speaker(s) spoken at a previous DEF CON?
+Primary Speaker Name*: Kyle Kelley
+Primary Speaker Title and Company (if applicable): Developer Support Engineer, Rackspace
+Primary Speaker Email Address: rgbkrk@gmail.com
+Primary Speaker Phone Number: 720-299-3514
+Has the speaker(s) spoken at a previous DEF CON? No
 
 DEF CON promotes you as a speaker in several ways. We build a twitter list of all accepted speakers, we include your social media information on the web site and printed program so you get more followers, and sometimes retweet what you are up to.
 Please list the social media names and links that you'd like us to include in our promotion (Twitter, Facebook, etc):
 
-*No real name is necessary for submission; however if you are selected we will need your real name in order to complete your speaking honorarium payment. If that is problematic for you, please let us know to consider other arrangements.
+Twitter: rgbkrk
+GitHub: rgbkrk
 
 ### Presentation Information
 
-Presentation Title:
-Is there a demonstration? Yes or No
-Are you releasing a new tool? Yes or No
-Are you releasing a new exploit? Yes or No
+Presentation Title: Is This Your Pipe? Hijacking the Build Pipeline.
+Is there a demonstration? Yes
+Are you releasing a new tool? Yes
+Are you releasing a new exploit? No
 Is there audience participation? Yes or No
-Length of presentation? (20 minutes, 45 minutes or 90 minutes)
-Are you currently submitting this topic to any other conferences held prior to DEF CON 22?
-Are you submitting to Black Hat USA? Yes or No
-Has this presentation been given or accepted to any other venue or conference? Yes or No
+Length of presentation? 45 minutes
+Are you currently submitting this topic to any other conferences held prior to DEF CON 22? No
+Are you submitting to Black Hat USA? No
+Has this presentation been given or accepted to any other venue or conference? No
+Is your ability or willingness to speak predicated on your talk being accepted at Black Hat USA? No
 
-If yes to either question, please list dates, venues, and how this version of your presentation is going to be different. We are looking for unique talks, so help us understand how your talk has been updated.
-
-Is your ability or willingness to speak predicated on your talk being accepted at Black Hat USA? Yes or No
 
 ### Scheduling
 
 Is there a specific day or time by which you must present?*
 
-* We work diligently to accommodate special speaking time-slots, but cannot guarantee any specific availability. We have dozens of presentations to arrange so we ask that you be available for speaking at any time during the conference. If you have special circumstances limiting when you can speak, please let us know ASAP otherwise we may not be able to accept your submission.
+No.
 
 Equipment needs & special requests (DEF CON will provide 1 LCD projector feed, 2 screens, microphones, wired and/or wireless Internet)
 
-Will you require more than 1 LCD projector feed? Yes or No
-If yes, please specify how many and why.
+Just the basics, nothing special.
 
-Will you require a white board? Yes or No
-Are there any other special equipment needs that you will require?
+Will you require more than 1 LCD projector feed? No.
+
+Will you require a white board? No.
+Are there any other special equipment needs that you will require? No.
+
 
 ### Speaker Bio(s):
 
@@ -83,10 +55,6 @@ Your abstract will be used for the website and printed materials. Summarize what
 You must provide a detailed outline containing the main points and navigation through your talk - show how you intend to begin, where you intend to lead the audience and how you plan to get there. The outline may be provided in a separate attachment and may be as simple as a text file or as detailed as a "bare bones" presentation. The better your outline then the better we are able to best review your presentation against other submissions (and the higher chance you have of being accepted).
 
 SUBMISSION NOTE: Presentations that are submitted without abstracts, outlines, or speaker bios (e.g. that have only pdf's, ppt's, or white papers attached or only point to a URL) will not be considered.
-
-### Supporting File(s):
-
-Additional supporting materials such as code, white papers, proof of concept, etc. should be sent along with this email to talks[at]defcon[dot]org. Note that additional files that may help in the selection process should be included. We are not asking for a complete presentation for this initial submission – That will only be required if you are selected for presenting.
 
 ## SUBMISSION AGREEMENTS
 
@@ -125,8 +93,6 @@ I warrant that the above work has not been previously published elsewhere, or if
 5) I understand that should my talk be determined to be unsuitable (e.g. a vendor or sales pitch, a talk on the keeping of goats, etc.) after I have presented, that I will not receive an honorarium.
 
 As detailed above,
-I, (insert primary speaker name), have read and agree to the Grant of Copyright Use.
-I, (insert primary speaker name), have read and agree to the Terms of Speaking Requirements.
-I, (insert primary speaker name), have read and agree to the Agreement to Terms of Speaking Remuneration or I will forfeit my honorarium.
-
-If you have not received confirmation of your submission after two business days of submission, contact us again at talks[at]defcon[dot]org. Good luck!
+I, Kyle Kelley, have read and agree to the Grant of Copyright Use.
+I, Kyle Kelley, have read and agree to the Terms of Speaking Requirements.
+I, Kyle Kelley, have read and agree to the Agreement to Terms of Speaking Remuneration or I will forfeit my honorarium.
