@@ -11,6 +11,8 @@ These are the talk materials for a submitted talk on credential and infrastructu
 
 *Tier 1 (passive)*
 
+Use GitHub's search API to find repositories that leave credentials out in the wide open.
+
 Release `gitsecnanny` to help combat against Tier 1 for the public at large.
 
 ### Submitting accidental PRs
