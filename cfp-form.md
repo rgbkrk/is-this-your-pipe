@@ -1,28 +1,41 @@
 ### Presenter Information
 
 Primary Speaker Name*: Kyle Kelley
+
 Primary Speaker Title and Company (if applicable): Developer Support Engineer, Rackspace
+
 Primary Speaker Email Address: rgbkrk@gmail.com
+
 Primary Speaker Phone Number: 720-299-3514
+
 Has the speaker(s) spoken at a previous DEF CON? No
 
-DEF CON promotes you as a speaker in several ways. We build a twitter list of all accepted speakers, we include your social media information on the web site and printed program so you get more followers, and sometimes retweet what you are up to.
 Please list the social media names and links that you'd like us to include in our promotion (Twitter, Facebook, etc):
 
 Twitter: rgbkrk
+
 GitHub: rgbkrk
 
 ### Presentation Information
 
 Presentation Title: Is This Your Pipe? Hijacking the Build Pipeline.
+
 Is there a demonstration? Yes
+
 Are you releasing a new tool? Yes
+
 Are you releasing a new exploit? No
-Is there audience participation? Yes or No
+
+Is there audience participation? Not that I'm aware of.
+
 Length of presentation? 45 minutes
+
 Are you currently submitting this topic to any other conferences held prior to DEF CON 22? No
+
 Are you submitting to Black Hat USA? No
+
 Has this presentation been given or accepted to any other venue or conference? No
+
 Is your ability or willingness to speak predicated on your talk being accepted at Black Hat USA? No
 
 
@@ -32,13 +45,13 @@ Is there a specific day or time by which you must present?*
 
 No.
 
-Equipment needs & special requests (DEF CON will provide 1 LCD projector feed, 2 screens, microphones, wired and/or wireless Internet)
-
+Equipment needs & special requests (DEF CON will provide 1 LCD projector feed, 2 screens, microphones, wired and/or wireless Internet):
 Just the basics, nothing special.
 
 Will you require more than 1 LCD projector feed? No.
 
 Will you require a white board? No.
+
 Are there any other special equipment needs that you will require? No.
 
 
