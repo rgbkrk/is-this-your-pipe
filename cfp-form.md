@@ -42,19 +42,17 @@ Will you require a white board? No.
 Are there any other special equipment needs that you will require? No.
 
 
-### Speaker Bio(s):
+### Speaker Bio:
 
-This text will be used for the website and printed materials and should be written in the third person. Cover any professional history that is relevant to the presentation, including past jobs, tools that you have written, etc. Let people know who you are and why you are qualified to speak on your topic. Presentations that are submitted without biographies will not be considered.
+After escaping from a stint at a three letter agency, Kyle went on to build things and support people in the real world at Rackspace.
 
 ### Abstract:
 
-Your abstract will be used for the website and printed materials. Summarize what your presentation will cover. Attendees will read this to get an idea of what they should know before your presentation, and what they will learn after. Use this to inform about how technical your talk is, what tools will be used, what materials to read in advance to get the most out of your presentation. This abstract is the primary way people will be drawn to your session.
+
 
 ### Detailed Outline:
 
-You must provide a detailed outline containing the main points and navigation through your talk - show how you intend to begin, where you intend to lead the audience and how you plan to get there. The outline may be provided in a separate attachment and may be as simple as a text file or as detailed as a "bare bones" presentation. The better your outline then the better we are able to best review your presentation against other submissions (and the higher chance you have of being accepted).
 
-SUBMISSION NOTE: Presentations that are submitted without abstracts, outlines, or speaker bios (e.g. that have only pdf's, ppt's, or white papers attached or only point to a URL) will not be considered.
 
 ## SUBMISSION AGREEMENTS
 
