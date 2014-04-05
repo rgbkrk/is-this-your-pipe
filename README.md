@@ -45,6 +45,10 @@ environment variables before merging code in.
 
 Submit a PR against a repo that uses Jenkins as part of a CI/CD workflow.
 
+### Bonus mode
+
+Statistics from registering egg on PyPI.
+
 ## Moral of the story:
 
 *Don't assume trust with your build pipeline.*
