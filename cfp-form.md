@@ -46,17 +46,17 @@ Are there any other special equipment needs that you will require? No.
 
 After escaping from a stint at a three letter agency, Kyle went on to build things and support people in the real world at Rackspace.
 
+Kyle
+
 ### Abstract:
 
-
+As software developers, especially those building services for the web, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines?
 
 ### Detailed Outline:
 
-
+Detailed Outline attached.
 
 ## SUBMISSION AGREEMENTS
-
-Please read and accept these terms by inserting your name where noted. Failure to do so will render your submission incomplete. Please read these carefully as some of the terms have changed.
 
 ### Grant of Copyright Use
 
