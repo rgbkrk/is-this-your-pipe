@@ -5,6 +5,8 @@ Is this your pipe?
 
 These are the talk materials for a submitted talk on credential and infrastructure hijacking from public repositories.
 
+Developers on the web rely heavily on web infrastructure that is out of their control now a days. Packages get pulled from Ruby gems, PyPI, npm, Chef cookbooks get pulled from GitHub to build millions of nodes every day, builds happen on Travis CI. The dependencies are all over the place.
+
 ## Avenues of attack
 
 ### Search for "cloud" credentials
