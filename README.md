@@ -54,5 +54,3 @@ Statistics from registering egg on PyPI.
 *Don't assume trust with your build pipeline.*
 
 However, don't let this limit your ability to keep deploying good products. I really hate it when security minded folks go straight to tightening up their sphincter instead of letting goods get delivered.
-
-I promise more vulgarity in the DefCon talk.
