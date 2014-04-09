@@ -61,6 +61,8 @@ Kyle Kelley is a software engineer at Rackspace who does developer support, snea
 
 ### Abstract:
 
+Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
+
 As software developers, especially those building services for the web, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines?
 
 ### Detailed Outline:

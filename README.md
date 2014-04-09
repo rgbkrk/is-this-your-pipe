@@ -1,11 +1,15 @@
 Is this your pipe?
 ==================
 
-# Hijacking the Build Pipeline
+# Hijacking (and Securing) the Build Pipeline
 
 These are the talk materials for a submitted talk on credential and infrastructure hijacking from public repositories.
 
-Developers on the web rely heavily on web infrastructure that is out of their control now a days. Packages get pulled from Ruby gems, PyPI, npm, Chef cookbooks get pulled from GitHub to build millions of nodes every day, builds happen on Travis CI. The dependencies are all over the place.
+## Abstract
+
+Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
+
+As software developers, especially those building services for the web, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines?
 
 ## Avenues of attack
 
