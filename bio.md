@@ -1,7 +1,1 @@
-# Kyle Kelley
-
-After escaping from a stint at a three letter agency, Kyle went on to build things and support people in the real world at Rackspace.
-
-Kyle loves working on open source projects, tidying up the messy parts of build and release steps, and keeping teams moving forward.
-
-"I probably should have done security research after my last job, but I had a desire to go build things in completely new domains for a little bit first."
+Kyle Kelley is a software engineer at Rackspace who does developer support, sneaks in security tomfoolery, and works on open source projects including IPython and the scientific Python ecosystem. He loves strange bugs. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
