@@ -9,7 +9,7 @@ These are the talk materials for a submitted talk on credential and infrastructu
 
 Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
 
-As software developers, especially those building services for the web, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines?
+As web developers, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines? Come hijack credentials out of repositories, steal hidden and encrypted secrets using builds, and hijack infrastructure through continous deployment.
 
 ## Avenues of attack
 
