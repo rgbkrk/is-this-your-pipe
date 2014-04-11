@@ -55,11 +55,11 @@ Will you require a white board? No.
 Are there any other special equipment needs that you will require? No.
 
 
-### Speaker Bio:
+### Speaker Bio
 
 Kyle Kelley is a software engineer at Rackspace who does developer support, sneaks in security tomfoolery, and works on open source projects including IPython and the scientific Python ecosystem. He loves strange bugs. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
 
-### Abstract:
+### Abstract
 
 Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
 
