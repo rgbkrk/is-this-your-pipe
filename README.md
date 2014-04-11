@@ -5,6 +5,6 @@ Is this your pipe?
 
 These are the talk materials for a talk submitted for DEF CON on credential and infrastructure hijacking from public repositories.
 
-[Abstract](cfp-form.md#Abstract)
-[Talk Outline](talk-outline.md)
-[Bio](cfp-form.md#Speaker-Bio)
+* [Abstract](cfp-form.md#abstract)
+* [Talk Outline](talk-outline.md)
+* [Bio](cfp-form.md#speaker-bio)
