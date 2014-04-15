@@ -58,4 +58,15 @@ Upside: You're not really "you" though, are you?
 
 ### Hijack the build, infect staging+production
 
-Plenty of people use Jenkins for their builds. It's a bit weighty, it's Java, what can I say?
+Jenkins gives you a lot more build power than Travis does. You have more control over the builds, what gets installed, what hooks you have, and what is available to you.
+
+People use Jenkins to do continuous deployment from dev -> staging -> production. That's great! Yay for features!
+
+What happens when you trust your build pipeline too much, along with the world?
+
+#### Get Your Own Butler!
+
+![](https://cacoo.com/store/stencil/image?id=272331&storeItemVersionId=10223)
+
+
+Do another nasty PR that instead of leaking secrets, messes with the Jenkins box.
