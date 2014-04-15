@@ -1,28 +1,41 @@
 ### Presenter Information
 
 Primary Speaker Name*: Kyle Kelley
+
 Primary Speaker Title and Company (if applicable): Developer Support Engineer, Rackspace
+
 Primary Speaker Email Address: rgbkrk@gmail.com
+
 Primary Speaker Phone Number: 720-299-3514
+
 Has the speaker(s) spoken at a previous DEF CON? No
 
-DEF CON promotes you as a speaker in several ways. We build a twitter list of all accepted speakers, we include your social media information on the web site and printed program so you get more followers, and sometimes retweet what you are up to.
 Please list the social media names and links that you'd like us to include in our promotion (Twitter, Facebook, etc):
 
 Twitter: rgbkrk
+
 GitHub: rgbkrk
 
 ### Presentation Information
 
 Presentation Title: Is This Your Pipe? Hijacking the Build Pipeline.
+
 Is there a demonstration? Yes
+
 Are you releasing a new tool? Yes
+
 Are you releasing a new exploit? No
-Is there audience participation? Yes or No
+
+Is there audience participation? Not that I'm aware of.
+
 Length of presentation? 45 minutes
+
 Are you currently submitting this topic to any other conferences held prior to DEF CON 22? No
+
 Are you submitting to Black Hat USA? No
+
 Has this presentation been given or accepted to any other venue or conference? No
+
 Is your ability or willingness to speak predicated on your talk being accepted at Black Hat USA? No
 
 
@@ -32,31 +45,31 @@ Is there a specific day or time by which you must present?*
 
 No.
 
-Equipment needs & special requests (DEF CON will provide 1 LCD projector feed, 2 screens, microphones, wired and/or wireless Internet)
-
+Equipment needs & special requests (DEF CON will provide 1 LCD projector feed, 2 screens, microphones, wired and/or wireless Internet):
 Just the basics, nothing special.
 
 Will you require more than 1 LCD projector feed? No.
 
 Will you require a white board? No.
+
 Are there any other special equipment needs that you will require? No.
 
 
-### Speaker Bio:
+### Speaker Bio
 
-After escaping from a stint at a three letter agency, Kyle went on to build things and support people in the real world at Rackspace.
+Kyle Kelley is a software engineer at Rackspace who does developer support, sneaks in security tomfoolery, and works on open source projects including IPython and the scientific Python ecosystem. He loves strange bugs. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
 
-### Abstract:
+### Abstract
 
+Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
 
+As web developers, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines? Come hijack credentials out of repositories, steal hidden and encrypted secrets using builds, and hijack infrastructure via *their* continuous deployment.
 
 ### Detailed Outline:
 
-
+Detailed Outline attached.
 
 ## SUBMISSION AGREEMENTS
-
-Please read and accept these terms by inserting your name where noted. Failure to do so will render your submission incomplete. Please read these carefully as some of the terms have changed.
 
 ### Grant of Copyright Use
 
