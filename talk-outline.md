@@ -70,3 +70,11 @@ What happens when you trust your build pipeline too much, along with the world?
 
 
 Do another nasty PR that instead of leaking secrets, messes with the Jenkins box.
+
+### Post Exploitation & Advantages to Pipeline Propagation Techniques.
+
+One might point out that this is a fair amount of overhead and time to successfully own a Pipeline. While this is true,  the process and exploitation is difficult to detect and will circumvent most IDS systems. In the event you are caught, they’re only catching who you Masquerade as. The surface area is also vast. Try to name a project that doesn’t utilize configuration management tools for deployment or depend on build pipelines. 
+
+Owning a pipeline will also pay in dividends. If an attacker is able to walk of the triage of dependencies after compromising one node, the systems and infrastructure the attacker is able to pivot into becomes exponential. This can be achieved as mentioned earlier through legitimate work creating security oops that leak credentials, or compromising credentials to a user with direct write access. 
+When we look at the attack vector provided to us through build pipelines, what we achieve  is a fundamentally different  attack vector that introducing weakness upstream from our target with a slim chance of detection, and vast impact.
+

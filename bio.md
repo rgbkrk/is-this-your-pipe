@@ -1,1 +1,3 @@
 Kyle Kelley is a software engineer at Rackspace who does developer support, sneaks in security tomfoolery, and works on open source projects including IPython and the scientific Python ecosystem. He loves strange bugs. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
+
+Greg Anderon is a Software Security Engineer at Rackspace Hosting who ensures security standards in Rackspace products through vulnerability assessments. His other areas of focus include advanced configuration management for large-scale server deployment with cloud infrastructure. 
