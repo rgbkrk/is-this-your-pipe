@@ -57,13 +57,11 @@ Are there any other special equipment needs that you will require? No.
 
 ### Speaker Bio
 
-Kyle Kelley is a software engineer at Rackspace who does developer support, sneaks in security tomfoolery, and works on open source projects including IPython and the scientific Python ecosystem. He loves strange bugs. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
+Kyle Kelley is a software engineer at Rackspace who supports developers, sneaks in security tomfoolery, and works on open source projects - primarily the scientific Python ecosystem. He loves strange bugs. As a developer support engineer, he devotes much of the day to helping customers with APIs and SDKs, infrastructure design, and not hanging themselves in the clouds. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
 
 ### Abstract
 
-Developers on the web rely heavily on web infrastructure that is out of their control nowadays. Packages get pulled from Ruby gems, PyPI, and npm. Chef cookbooks get pulled from GitHub to build millions of nodes every day. Builds happen on Travis CI or Jenkins. The dependencies are all over the place.
-
-As web developers, we rely on tools to automate building code, running tests, and even deploying services. What happens when you're too trusting of CI/CD pipelines? Come hijack credentials out of repositories, steal hidden and encrypted secrets using builds, and hijack infrastructure via *their* continuous deployment.
+As developers of the web, we rely on tools to automate building code, run tests, and even deploy services. What happens when you're too trusting of CI/CD pipelines? Credentials get exposed, hijacked, and re-purposed. We'll talk about how often and what happens when people leak public cloud credentials, how some are protecting themselves using encrypted secrets and how to bypass protections against leaking decrypted secrets. gitsecnanny, a tool we've been working on to identify public credential leakage and alert comitters, will be released and demoed.
 
 ### Detailed Outline:
 
