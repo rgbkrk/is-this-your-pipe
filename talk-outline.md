@@ -133,6 +133,8 @@ Upside: You're not really "you" though, are you?
 
 ### Hijack the build, infect staging+production
 
+![](http://www.boblarsonplumbing.com/images/BrokenPipes.jpg)
+
 Jenkins gives you a lot more build power than Travis does. You have more control over the builds, what gets installed, what hooks you have, and what is available to you.
 
 People use Jenkins to do continuous deployment from dev -> staging -> production. That's great! Yay for features!
@@ -154,6 +156,8 @@ Those same secrets you could leak while in Travis can be leaked from Jenkins.  S
 The great thing about the Jenkins box is that you can poke around as part of the build to see what else is available on the box/give a shell and escalate privileges thereafter.
 
 If you're able to discern if this box is also used to deploy to production, then by all means deploy something to production. ;)
+
+![](http://www.sprinklertalk.com/Sprinkler_School/images/image_pvc_trio.jpg)
 
 #### Employ more butlers
 
