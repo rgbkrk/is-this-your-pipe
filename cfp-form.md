@@ -8,6 +8,10 @@ Primary Speaker Email Address: rgbkrk@gmail.com
 
 Primary Speaker Phone Number: 720-299-3514
 
+Additional Speakers' name(s)* & titles: Greg Anderson
+
+Additional Email Addresses: greg.anderson116@gmail.com
+
 Has the speaker(s) spoken at a previous DEF CON? No
 
 Please list the social media names and links that you'd like us to include in our promotion (Twitter, Facebook, etc):
@@ -26,7 +30,7 @@ Are you releasing a new tool? Yes
 
 Are you releasing a new exploit? No
 
-Is there audience participation? Not that I'm aware of.
+Is there audience participation? Nope
 
 Length of presentation? 45 minutes
 
@@ -57,7 +61,9 @@ Are there any other special equipment needs that you will require? No.
 
 ### Speaker Bio
 
-Kyle Kelley is a software engineer at Rackspace who supports developers, sneaks in security tomfoolery, and works on open source projects - primarily the scientific Python ecosystem. He loves strange bugs. As a developer support engineer, he devotes much of the day to helping customers with APIs and SDKs, infrastructure design, and not hanging themselves in the clouds. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites.
+Kyle Kelley writes software, sneaks in security tomfoolery, and dabbles in as many open source projects as possible. As a developer support engineer, he devotes much of the day to helping developers with APIs and SDKs, infrastructure design, and not hanging themselves in the clouds. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites. He loves strange bugs.
+
+Greg Anderson is a Software Security Engineer at Rackspace. He likes to find different ways to poke things and watch them fall over.  Breaking things in automation over large scale server deployments is his forte.
 
 ### Abstract
 
