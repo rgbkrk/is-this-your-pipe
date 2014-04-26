@@ -1,7 +1,48 @@
-Talk Outline
-------------
+Talk Outline: Is This Your Build Pipe?
+--------------------------------------
 
-We'll cover three tiers of hijacking infrastructure using components of the build pipelines. We'll show how we help secure others and how you can secure your build pipeline too.
+Your credentials are secure, right?
+
+People
+
+* Leak API keys/credentials
+* Expose secure credentials inadvertently
+* Allow build tools to deploy after tests pass (yes, a good thing too)
+
+### Lies, Damned Lies, and APIs
+
+If I get access to your cloud credentials, I can
+
+#### Append my SSH Key to one of yours
+
+```
+$ nova keypair-list
++------------+-------------------------------------------------+
+| Name       | Fingerprint                                     |
++------------+-------------------------------------------------+
+| rgbkrk     | 20:2d:22:d3:2a:33:8b:27:40:3c:7d:56:ef:eb:cc:ce |
++------------+-------------------------------------------------+
+$ # Concatenate their public key with yours with a newline between
+...
+$ nova keypair-add --pub-key ~/sneak-key.pub rgbkrk
+```
+
+Free root access on new boxes! If you revoke the API key after learning of a compromise, I still have access later. If your API key is exposed on a fresh server, I'll make sure to get back on.
+
+#### Spin up new boxes
+
+This is where I run my dogenet.
+
+![](http://i.imgur.com/yyK46nU.jpg)
+
+#### Get access to your data
+
+* Object stores (S3/Blobs/Swift)
+* Queues (SQS/CloudQueues)
+* Change root passwords on boxes
+* "Redistribute" your load balancer and DNS entries
+
+## How do I get access?
 
 ### SecOops: Credentials in public repositories
 
@@ -29,7 +70,9 @@ Anonymized examples and responses will be shown.
 
 ### Hijacking encrypted secrets
 
-The next tier is submitting a PR against a repository that uses encrypted secrets on Travis CI. Pulling them out can be as simple as writing them out to std(out|err) or even as complex as posting to a webhook.
+Submit a pull request against a repository that uses encrypted secrets on Travis CI. As simple as writing them out to std(out|err) or even as complex as posting to a webhook.
+
+Easy right?
 
 Travis mitigates this issue by not making the secure env variables available on pull requests from forks.
 
@@ -37,13 +80,13 @@ Travis mitigates this issue by not making the secure env variables available on 
 
 Props to them for making sure to think about this.
 
-What about forking the repository and adding it to Travis itself? The encryption keys are tied to the repository.
+What about forking the repository and adding it to Travis itself? The encryption keys are 1-1 with the repository.
 
 > Please also note that keys used for encryption and decryption are tied to the repository. If you fork a project and add it to travis, it will have different pair of keys than the original.
 
 Is there anything to be worried about then?
 
-Yes. Code review still stands. Make sure no one does anything stupid with your "secure" environment variables before merging code in.
+Yes. *Code review still stands*. Make sure no one does anything stupid with your "secure" environment variables before merging code in.
 
 Masquerade process:
 
@@ -68,5 +111,12 @@ What happens when you trust your build pipeline too much, along with the world?
 
 ![](https://cacoo.com/store/stencil/image?id=272331&storeItemVersionId=10223)
 
+Those same secrets you could leak while in Travis can be leaked from Jenkins.  Same flow:
 
-Do another nasty PR that instead of leaking secrets, messes with the Jenkins box.
+1. Find repository that requires credentials in tests
+2. Do legitimate work on a feature or bug
+3. Include your security oops
+...
+4. Profit
+
+The great thing about the Jenkins box is that you can poke around as part of the build to see what else is available on the box/give a shell and escalate privileges thereafter.
