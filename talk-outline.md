@@ -1,7 +1,8 @@
 Talk Outline: Is This Your Build Pipe?
 --------------------------------------
 
-Your credentials are secure, right?
+Your credentials are secure, right? If compromised, you can just revoke them and
+everything will be fine right?
 
 People
 
@@ -9,9 +10,9 @@ People
 * Expose secure credentials inadvertently
 * Allow build tools to deploy after tests pass (yes, a good thing too)
 
-### Lies, Damned Lies, and APIs
+## Lies, Damned Lies, and APIs
 
-If I get access to your cloud credentials, I can
+### What can I do with your cloud credentials?
 
 #### Append my SSH Key to one of yours
 
@@ -27,7 +28,9 @@ $ # Concatenate their public key with yours with a newline between
 $ nova keypair-add --pub-key ~/sneak-key.pub rgbkrk
 ```
 
-Free root access on new boxes! If you revoke the API key after learning of a compromise, I still have access later. If your API key is exposed on a fresh server, I'll make sure to get back on.
+Free root access on new boxes! If you revoke the API key after learning of a
+compromise, I still have access later. If your API key is exposed on a fresh
+server, I'll make sure to get back on.
 
 #### Spin up new boxes
 
@@ -39,8 +42,31 @@ This is where I run my dogenet.
 
 * Object stores (S3/Blobs/Swift)
 * Queues (SQS/CloudQueues)
-* Change root passwords on boxes
+* Change root passwords on servers
 * "Redistribute" your load balancer and DNS entries
+
+Each one of these avenues gives me insight and access into your build network
+too. Can I get patches merged in when you deploy?
+
+#### The list goes on
+
+What would you do with these credentials? Is every provider the same? What
+insight do you have into what your provider is actually doing?
+
+At DEF CON 19, we saw Ben Feinstein and Jeff Jarmoc show leaked credentials,
+potential backdoors, and provide a BackTrack AMI that reached out on first run.
+
+Do you have images you need to protect for your own users? How trusted is your
+brand?
+
+### What can I do with the application side of OAuth keys?
+
+Depends on the service, but for quite a few I can
+
+* Masquerade as your application, get people to authenticate with me using your `$TRUSTED_BRAND`
+* Generate *your* access tokens, masquerade as you.
+* Get a bearer token, use it to perform any application level access
+* Keep you above the rate limit, continuously
 
 ## How do I get access?
 
@@ -48,7 +74,9 @@ This is where I run my dogenet.
 
 In the rush to deploy code and get services moving quickly in collaboration, coders will put credentials in public facing repositories.
 
-With a quick search, you too no longer need your own money to mine DogeCoin. GitHub makes it really easy through their code search API to find the most recently indexed results.
+With a quick search, you too no longer need your own money to mine DogeCoin.
+GitHub makes it really easy through their code search API to find the most
+recently indexed results.
 
 [Recent AWS keys uploaded](https://github.com/search?o=desc&q=AKIAJ&ref=searchresults&s=indexed&type=Code) (`AKIAJ`)
 
@@ -62,11 +90,15 @@ Source: https://securosis.com/blog/my-500-cloud-security-screwup
 
 To combat this for the public at large, we're releasing gitsecnanny.
 
-GitSecNanny searches repositories for security oops. The first we're going after is credentials left out in the open in public repositories.
+GitSecNanny searches repositories for security oops. The first we're going after
+is credentials left out in the open in public repositories.
 
-After finding credentials, we email the original committer and the owner of the project to let them know how to revoke keys.
+After finding credentials, we email the original committer and the owner of the
+project to let them know how to revoke keys.
 
-Anonymized examples and responses will be shown.
+{{ Anonymized examples and responses will be shown, as well as statistics about
+how often keys are leaked (that we know of) and how many we've helped correct so
+far. }}
 
 ### Hijacking encrypted secrets
 
@@ -122,3 +154,9 @@ Those same secrets you could leak while in Travis can be leaked from Jenkins.  S
 The great thing about the Jenkins box is that you can poke around as part of the build to see what else is available on the box/give a shell and escalate privileges thereafter.
 
 If you're able to discern if this box is also used to deploy to production, then by all means deploy something to production. ;)
+
+#### Employ more butlers
+
+To protect against this, dev/qa should be separate from staging and production. If possible, builds should run on their own slave boxes. Assume anything on that box can and will be compromised (reduce permissions on API keys).
+
+What happens if that build passes? Can someone just change the test script to pass?
