@@ -21,11 +21,11 @@ $ nova keypair-list
 +------------+-------------------------------------------------+
 | Name       | Fingerprint                                     |
 +------------+-------------------------------------------------+
-| rgbkrk     | 20:2d:22:d3:2a:33:8b:27:40:3c:7d:56:ef:eb:cc:ce |
+| main       | 20:2d:22:d3:2a:40:8b:27:40:3c:7d:54:ef:eb:cc:ce |
 +------------+-------------------------------------------------+
 $ # Concatenate their public key with yours with a newline between
 ...
-$ nova keypair-add --pub-key ~/sneak-key.pub rgbkrk
+$ nova keypair-add --pub-key ~/sneak-key.pub main
 ```
 
 Free root access on new boxes! If you revoke the API key after learning of a
@@ -160,3 +160,15 @@ If you're able to discern if this box is also used to deploy to production, then
 To protect against this, dev/qa should be separate from staging and production. If possible, builds should run on their own slave boxes. Assume anything on that box can and will be compromised (reduce permissions on API keys).
 
 What happens if that build passes? Can someone just change the test script to pass?
+
+#### Gate your builds
+
+If public source code, gate your Jenkins builds. Only certain users can have
+their builds run. Don't let it limit progress, but don't let wild things happen
+from random people.
+
+The Python Cryptography project does this:
+
+![](http://i.imgur.com/rGe7s5x.png)
+
+Guess who's trusted now?
