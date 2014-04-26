@@ -6,7 +6,7 @@ Primary Speaker Title and Company (if applicable): Developer Support Engineer, R
 
 Primary Speaker Email Address: rgbkrk@gmail.com
 
-Primary Speaker Phone Number: 720-299-3514
+Primary Speaker Phone Number: 
 
 Additional Speakers' name(s)* & titles: Greg Anderson
 
