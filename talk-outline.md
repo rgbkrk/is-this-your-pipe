@@ -1,7 +1,9 @@
 Talk Outline: Is This Your Pipe?
 --------------------------------------
 
-![](http://i.imgur.com/lc3qTAJ.jpg)
+Hijack the build pipeline
+
+![](http://i.imgur.com/lc3qTAJl.jpg)
 
 Hijacking build pipelines, hijacking infrastructure
 
