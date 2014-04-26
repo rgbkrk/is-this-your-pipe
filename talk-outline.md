@@ -120,3 +120,5 @@ Those same secrets you could leak while in Travis can be leaked from Jenkins.  S
 4. Profit
 
 The great thing about the Jenkins box is that you can poke around as part of the build to see what else is available on the box/give a shell and escalate privileges thereafter.
+
+If you're able to discern if this box is also used to deploy to production, then by all means deploy something to production. ;)
