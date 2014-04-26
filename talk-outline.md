@@ -1,7 +1,9 @@
 Talk Outline: Is This Your Pipe?
 --------------------------------------
 
-![](http://i.imgur.com/IETPsqY.jpg)
+![](http://i.imgur.com/lc3qTAJ.jpg)
+
+Hijacking build pipelines, hijacking infrastructure
 
 Your credentials are secure, right? If compromised, you can just revoke them and
 everything will be fine right?
@@ -79,6 +81,8 @@ Depends on the service, but for quite a few I can
 
 ### SecOops: Credentials in public repositories
 
+![](http://i.imgur.com/IETPsqY.jpg)
+
 In the rush to deploy code and get services moving quickly in collaboration,
 coders will put credentials in public facing repositories.
 
@@ -151,7 +155,7 @@ Upside: You're not really "you" though, are you?
 
 ### Hijack the build, infect staging+production
 
-![](http://www.boblarsonplumbing.com/images/BrokenPipes.jpg)
+![](http://i.imgur.com/lIkwMGq.png)
 
 Jenkins gives you a lot more build power than Travis does. You have more control
 over the builds, what gets installed, what hooks you have, and what is available
@@ -162,12 +166,16 @@ production. That's great! Yay for features!
 
 What happens when you trust your build pipeline too much, along with the world?
 
+![](http://i.imgur.com/MErwTGA.jpg)
+
+
 #### Get Your Own Butler!
 
-![](https://cacoo.com/store/stencil/image?id=272331&storeItemVersionId=10223)
+![](http://i.imgur.com/9MOiPzn.png)
 
-Those same secrets you could leak while in Travis can be leaked from Jenkins.
-Same flow:
+Many Jenkins setups rely on environment variables and keys for the builds. The
+flow is similar for Travis. This time though, you don't need to worry about
+getting your code merged:
 
 1. Find repository that requires credentials in tests
 2. Do legitimate work on a feature or bug
@@ -182,7 +190,7 @@ privileges thereafter.
 If you're able to discern if this box is also used to deploy to production, then
 by all means deploy something to production. ;)
 
-![](http://www.sprinklertalk.com/Sprinkler_School/images/image_pvc_trio.jpg)
+![](http://i.imgur.com/D6WsqRx.jpg)
 
 #### Employ more butlers
 
