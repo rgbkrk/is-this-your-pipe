@@ -16,6 +16,16 @@ Twitter: rgbkrk
 
 GitHub: rgbkrk
 
+Co-Speaker Name: Greg Anderson
+
+Co-Speaker Title and Company (if applicable): Software Security Engineer, Rackspace
+
+Co-Speaker Email Address: greg.anderson116@gmail.com
+
+Co-Speaker Phone Number: 720-299-3514
+
+Has the speaker(s) spoken at a previous DEF CON? No
+
 ### Presentation Information
 
 Presentation Title: Is This Your Pipe? Hijacking the Build Pipeline.
