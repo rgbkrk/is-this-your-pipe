@@ -1,25 +1,27 @@
 Talk Outline: Is This Your Pipe?
 --------------------------------------
 
-Hijack the build pipeline
+It's time we have a talk about hijacking build pipelines and infrastructure,
+using leaked API credentials and inadvertent access in build systems.
 
-![](http://i.imgur.com/lc3qTAJl.jpg)
-
-Hijacking build pipelines, hijacking infrastructure
-
-Your credentials are secure, right? If compromised, you can just revoke them and
-everything will be fine right?
+Your credentials are secure, right? If they get compromised, you can just revoke
+them and everything will be fine right?
 
 How much do you trust your build pipeline? How much do your trust your
 infrastructure and providers?
 
-People
+Developers
 
 * Leak API keys/credentials
 * Expose secure credentials inadvertently
-* Allow build tools to deploy after tests pass (yes, a good thing too)
+* Let anything happen in their development environment
+* Deploy from dev to staging to production
+
+I love developers. I am one. We can be a bit fast and loose though.
 
 ## Lies, Damned Lies, and APIs
+
+Lets say I have your credentials. What can I do with them?
 
 ### What can I do with your cloud credentials?
 
