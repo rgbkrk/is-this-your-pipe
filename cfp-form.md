@@ -6,7 +6,7 @@ Primary Speaker Title and Company (if applicable): Developer Support Engineer, R
 
 Primary Speaker Email Address: rgbkrk@gmail.com
 
-Primary Speaker Phone Number: 
+Primary Speaker Phone Number:
 
 Additional Speakers' name(s)* & titles: Greg Anderson
 
@@ -61,13 +61,28 @@ Are there any other special equipment needs that you will require? No.
 
 ### Speaker Bio
 
-Kyle Kelley writes software, sneaks in security tomfoolery, and dabbles in as many open source projects as possible. As a developer support engineer, he devotes much of the day to helping developers with APIs and SDKs, infrastructure design, and not hanging themselves in the clouds. On the side he does ops work for various open source projects, including their build infrastructure and public facing sites. He loves strange bugs.
+Kyle Kelley writes software, sneaks in security tomfoolery, and dabbles in as
+many open source projects as possible. During the day he writes code, builds
+systems, and helps developers with APIs and SDKs, infrastructure design, and not
+hanging themselves in the clouds. On the side he does ops and dev work
+for various open source projects, including their build infrastructure and
+public facing sites. He loves strange bugs.
 
-Greg Anderson is a Software Security Engineer at Rackspace. He likes to find different ways to poke things and watch them fall over.  Breaking things in automation over large scale server deployments is his forte.
+Greg Anderson is a Software Security Engineer at Rackspace. He likes to find
+different ways to poke things and watch them fall over.  Breaking things in
+automation over large scale server deployments is his forte.
 
 ### Abstract
 
-As developers of the web, we rely on tools to automate building code, run tests, and even deploy services. What happens when you're too trusting of CI/CD pipelines? Credentials get exposed, hijacked, and re-purposed. We'll talk about how often and what happens when people leak public cloud credentials, how some are protecting themselves using encrypted secrets and how to bypass protections against leaking decrypted secrets. gitsecnanny, a tool we've been working on to identify public credential leakage and alert comitters, will be released and demoed.
+As developers of the web, we rely on tools to automate building code, run tests,
+and even deploy services. What happens when we're too trusting of CI/CD
+pipelines? Credentials get exposed, hijacked, and re-purposed. We'll talk about
+how often and what happens when people leak public cloud credentials, how some
+are protecting themselves using encrypted secrets and how to bypass protections
+against leaking decrypted secrets. We'll release and demo gitsecnanny, a tool
+we've been working on to identify public credential leakage and alert
+committers. After exploring credentials, we'll go after using Jenkins to get
+our "helpful" code deployed to production.
 
 ### Detailed Outline:
 
