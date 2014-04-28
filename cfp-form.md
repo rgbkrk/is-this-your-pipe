@@ -76,17 +76,12 @@ automation over large scale server deployments is his forte.
 
 As developers of the web, we rely on tools to automate building code, run tests,
 and even deploy services. What happens when we're too trusting of CI/CD
-pipelines? API keys get exposed, hijacked, and re-purposed as well as
-infrastructure. We'll talk about how often and what happens when people leak
-public cloud and other API keys, how some are protecting themselves using
-encrypted secrets and how to bypass protections against leaking decrypted
-secrets. After exploring credentials, we'll use Jenkins to get "helpful" code
-deployed to production.
-
-Gitsecnanny, a service to identify and alert about public credential leakage,
-will be released and demoed. Come hijack credentials out of repositories, steal
-hidden and encrypted secrets using builds, and hijack infrastructure via their
-continuous deployment.
+pipelines? Credentials get exposed, hijacked, and re-purposed. We'll talk about
+how often and what happens when people leak public cloud credentials, how some
+are protecting themselves using encrypted secrets, how to bypass protections
+against leaking decrypted secrets and how to turn their Jenkins into your own
+butler. Come hijack credentials out of repositories, steal hidden and encrypted
+secrets using builds, and hijack infrastructure via their continuous deployment.
 
 ### Detailed Outline:
 
